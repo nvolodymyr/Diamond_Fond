@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="Diamonds.xsl" type="text/xsl" ?>
+<mns:diamond xmlns:mns="http://www.example.com/mns"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.example.com/mns Schema.xsd">
+    <gems>
+        <gem id="1">
+            <name>bla</name>
+            <preciousness>PRECIOUS</preciousness>
+            <origin>Vynnyky</origin>
+            <visualParameters>
+                <visualId>1</visualId>
+                <color>GREEN</color>
+                <transparency>100</transparency>
+                <gemCutting>6</gemCutting>
+            </visualParameters>
+            <value>3.0</value>
+        </gem>
+        <gem id="2">
+            <name>bla</name>
+            <preciousness>SEMIPRECIOUS</preciousness>
+            <origin>Vynnyky</origin>
+            <visualParameters>
+                <visualId>2</visualId>
+                <color>RED</color>
+                <transparency>80</transparency>
+                <gemCutting>7</gemCutting>
+            </visualParameters>
+            <value>3.0</value>
+        </gem>
+    </gems>
+</mns:diamond>
